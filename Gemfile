@@ -40,11 +40,6 @@ group :development, :test do
 
   gem 'rspec-rails'
   gem 'guard-rspec'
-  gem 'cucumber-rails'
-  gem 'cucumber-rails-training-wheels'
-  gem 'capybara'
-  gem 'database_cleaner'
-  gem 'launchy'
   
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
@@ -61,4 +56,11 @@ group :production do
   gem 'rails_12factor'
 end
 
+group :test do
+  gem 'cucumber-rails'
+  gem 'cucumber-rails-training-wheels'
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'launchy'
+end
 
